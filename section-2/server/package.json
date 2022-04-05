@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "gqlServer.js",
+  "main": "connectGQL-toExpress.js",
   "scripts": {
-    "start": "nodemon gqlServer.js",
+    "start": "nodemon connectGQL-toExpress.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,22 +1,10 @@
-const express = require("express");
 require("dotenv").config();
+const express = require("express");
 const PORT = process.env.PORT || 8008;
+
 
 const app = express();
 
-
-
-
-
-
-
-
-
-
-
-
-
-// ========================
 
 // checking REST api
 app.get('/rest', (req, res)=>{

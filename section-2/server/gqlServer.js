@@ -1,8 +1,6 @@
-const { ApolloServer, gql } = require('apollo-server');
 require("dotenv").config();
+const { ApolloServer, gql } = require('apollo-server');
 const PORT = process.env.PORT || 8008;
-// graphql server
-
 
 
 //types query / mutation / subscription
@@ -10,18 +8,8 @@ const PORT = process.env.PORT || 8008;
 const typeDefs = `
     type Query{
         totalPosts: Int!
-
-
     }
-
 `;
-
-
-
-
-
-
-
 
 //resolvers : send data to client
 const resolvers = {
